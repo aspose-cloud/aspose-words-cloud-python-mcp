@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aspose-words-mcp"
+version = "0.2.0"
+description = "Real Codegen-generated MCP tools for Aspose Words Cloud's curated core operation set (PRD Sprint 11, product replication)."
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+    "mcp>=2.0",
+    "aspose-storage-core-mcp==1.1.0",
+]
+
+[project.scripts]
+aspose-words-mcp = "aspose_words_mcp.server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
