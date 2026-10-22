@@ -2,6 +2,10 @@
 
 Every release of this server, newest first. Release notes are on the [Releases page](https://github.com/aspose-cloud/aspose-words-cloud-python-mcp/releases); not every version has one, because some were released before this repository existed.
 
+## v2.0.1 (2026-10-21)
+
+- Non-breaking change.
+
 ## v2.0.0 (2026-10-19)
 
 - Breaking change, approved by the maintainer.
